@@ -1,0 +1,31 @@
+name: isha_s_application6
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: ^3.6.0
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.16
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.7
+  shared_preferences: ^2.3.4
+  connectivity_plus: ^6.1.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Oswald
+      fonts: 
+        - asset: assets/fonts/OswaldMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OswaldLight.ttf
+          weight: 300
